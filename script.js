@@ -2,7 +2,7 @@ var memory_array = ['bunkbedfall.gif','bunkbedfall.gif','exerciseball158px.gif',
 var memory_values = [];
 var memory_tile_IDs = [];
 var tiles_Flipped = 0;
-
+//these could possibly be in one global variable
 
 function countDown(secs,elem) {
   var element = document.getElementById(elem);
